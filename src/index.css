@@ -5,3 +5,35 @@
 * {
   font-family: "Poppins";
 }
+.rectangle {
+  width: 377px;
+  height: 377px;
+  background-color: rgba(185, 204, 254, 1);
+  border-radius: 30px;
+}
+
+.bg-mark {
+  background-color: rgba(255, 206, 115, 1);
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+}
+
+.bg-notification {
+  background: #ffe3de;
+  border-radius: 100%;
+}
+.mark-online {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 100%;
+  background-color: rgba(93, 211, 105, 1);
+}
+.text-notification {
+  background-color: #904cff80;
+  border-radius: 100%;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
