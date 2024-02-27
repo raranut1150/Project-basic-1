@@ -9,8 +9,9 @@ function Navbar() {
   };
 
   return (
-    <div className="max-md:border-b ">
-      <div className="w-[90vw] md:max-w-[1100px] md:h-28 h-20 m-auto flex justify-between items-center relative ">
+    <div className="mx-auto max-w-6xl ">
+      <div className="  
+      flex justify-between items-center relative py-3 mx-4">
         <div className="transition-all ease-in-out duration-300">
           <img
             src="/image/Logo.svg"
@@ -19,7 +20,7 @@ function Navbar() {
           />
         </div>
 
-        <div className="hidden md:flex justify-center items-center ">
+        <div className=" hidden  md:flex justify-center items-center ">
           <ul className="flex space-x-5 mx-6 lg:space-x-9 lg:mx-8 text-[#090f4e]  text-base lg:text-lg transition-all ease-in-out duration-300">
             <li>
               <a
@@ -53,38 +54,37 @@ function Navbar() {
           </a>
         </div>
 
-        <div onClick={menuToggle} className="cursor-pointer md:hidden">
+        <div onClick={menuToggle} className="cursor-pointer md:hidden ">
           {isOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
         </div>
 
         <div
           className={
             !isOpen
-              ? "absolute top-[-200px] flex-col w-full opacity-0 transition-all ease-in-out duration-300 text-center"
-              : "absolute md:hidden top-[78px]  w-full h-fit py-5 transition-all ease-in-out duration-300 text-center"
+              ? "absolute top-[-200px] flex-col  opacity-0 transition-all ease-in-out duration-300 text-center"
+              : "z-50 bg-gradient-to-b from-indigo-50 via-[#ffff] to-indigo-50 absolute md:hidden top-16 h-fit  w-full p-5 transition-all ease-in-out duration-300 text-center"
           }
         >
           <ul className="flex-col text-[#090f4e] text-lg space-y-5 mb-8">
-            <li>
+            <li className="w-full h-full hover:opacity-35 hover:border-b-2 ease-in-out duration-100 ">
               <a
                 href="#"
-                className="hover:opacity-55 ease-in-out duration-100 "
               >
                 Company
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:opacity-55 ease-in-out duration-100">
+            <li className="w-full h-full hover:opacity-35 hover:border-b ease-in-out duration-100 ">
+              <a href="#" >
                 Feature
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:opacity-55 ease-in-out duration-100">
+            <li className="w-full h-full hover:opacity-35 hover:border-b ease-in-out duration-100 ">
+              <a href="#" >
                 Pricing
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:opacity-55 ease-in-out duration-100">
+            <li className="w-full h-full hover:opacity-35  ease-in-out duration-100 ">
+              <a href="#" >
                 Log In
               </a>
             </li>
