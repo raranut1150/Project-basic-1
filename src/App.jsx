@@ -1,9 +1,10 @@
 import Header from "./Components/Header/Header";
-
+import LogoCompany from "./Components/Logo/LogoCompany";
 function App() {
   return (
-    <div >
+    <div>
       <Header />
+      <LogoCompany />
     </div>
   );
 }
