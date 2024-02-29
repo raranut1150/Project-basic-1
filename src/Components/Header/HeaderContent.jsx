@@ -36,7 +36,7 @@ function HeaderContent() {
         </div>
 
         <div className=" mx-auto mx-7xl py-16 sm:py-12 order-1 lg:order-2 lg:pr-24 ">
-          <div className="relative">
+          <div className="relative max-sm:mx-10 ">
             <img
               src="/image/Rectangle 820.svg"
               alt="bg-3D"
@@ -80,8 +80,9 @@ function HeaderContent() {
             </div>
 
             <div>
-              <div className="absolute  sm:bottom-[-42px] lg:left-[-110px] sm:-left-[140px] -bottom-8 -left-16">
-                <div className="flex justify-center items-center bg-[#ffff] p-2 lg:p-3 rounded-2xl sm:w-[245px]">
+              <div className="absolute  sm:bottom-[-22px] lg:left-[-110px] sm:-left-[70px] -bottom-8 -left-16">
+                <div className="flex justify-center items-center bg-[#ffff] p-2  lg:p-4 rounded-2xl 
+               lg:w-[245px]">
                   <img
                     src="/image/notification-2.svg"
                     alt="notification"
@@ -91,7 +92,7 @@ function HeaderContent() {
                     <p className="text-[#858A8F] text-[10px] sm:text-[13px]  ">
                       Notification
                     </p>
-                    <p className="text-[8px] sm:text-[10px] lg:text-[14px] sm:leading-normal leading-tight font-semibold">
+                    <p className="text-[8px] sm:text-[10px] md:text-sm lg:text-[14px] sm:leading-normal leading-tight font-semibold">
                       Send a message to <br /> Ilya Zinchenko
                     </p>
                   </div>
