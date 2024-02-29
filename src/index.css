@@ -38,3 +38,7 @@ body{
 
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
+.clip-path{
+  clip-path: inset(10% 16% 20% 16%);
+}

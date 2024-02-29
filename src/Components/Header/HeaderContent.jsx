@@ -6,7 +6,7 @@ function HeaderContent() {
       <div className="grid gap-x-5 grid-cols-1 lg:grid-cols-2 mx-4 lg:pt-32 sm:pt-16 pt-5">
         <div className=" flex flex-col order-2 lg:order-1 lg:w-[445px]">
           <p
-            className="text-[#293FCC] text-[14px] font-semibold
+            className="text-[#293FCC] text-sm font-semibold
          bg-[rgba(255,255,255,0.8)] w-fit px-5 py-2 rounded-[10px]  self-center  lg:self-start  "
           >
             Welcome QuickSpace

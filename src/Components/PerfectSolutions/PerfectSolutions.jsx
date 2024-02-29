@@ -2,7 +2,7 @@ function PerfectSolutions() {
   return (
     <div className="mx-auto max-w-6xl">
       <div className="mx-4">
-        <h2 className="text-2xl font-semibold text-center max-sm:px-16">
+        <h2 className="text-3xl font-semibold text-center  text-[#090F4E]">
           Perfect Solution For Your Business
         </h2>
         <p className="text-[#63657E] sm:text-lg text-base text-center md:max-w-3xl mx-auto my-8 ">
