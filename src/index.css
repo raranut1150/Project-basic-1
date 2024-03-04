@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-image: linear-gradient(#e8eaf7f7, white, #FBFCff);
-  
+body {
+  background-image: linear-gradient(#e8eaf7f7, white, #fbfcff);
 }
 * {
   font-family: "Poppins";
@@ -18,7 +17,7 @@ body{
 
 .bg-mark {
   background-color: rgba(255, 206, 115, 1);
-  
+
   border-radius: 100%;
 }
 
@@ -27,7 +26,6 @@ body{
   border-radius: 100%;
 }
 .mark-online {
-  
   border-color: white;
   border-radius: 100%;
   background-color: rgba(93, 211, 105, 1);
@@ -39,6 +37,11 @@ body{
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.clip-path{
+.clip-path {
   clip-path: inset(10% 16% 20% 16%);
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
