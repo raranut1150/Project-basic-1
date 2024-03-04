@@ -16,7 +16,7 @@ function Discover() {
           evolution, average rate per post and reach and impressions to give you
           the insights.
         </p>
-        <div className="relative  hidden">
+        <div className="relative border hidden md:block ">
           <img src="/image/dashboard 1.svg" alt="dashboard" className="lg:w-full md:w-[680px]"/>
           <img src="/image/Sales.svg" alt="sales" className=" absolute bottom-8 lg:-left-52 lg:pl-20 max-lg:w-[200px] md:-left-20  max-md:w-[150px] - clip-path "/>
         </div>

@@ -5,6 +5,7 @@ import Discover from "./Components/Discover/Discover";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Subscription from "./Components/Subscription/Subscription";
 import SignUp from "./Components/SignUp/SignUp";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Testimonial />
       <Subscription />
       <SignUp />
+      <Footer />
     </div>
   );
 }
