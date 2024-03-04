@@ -3,7 +3,7 @@ function Testimonial() {
   return (
     <div className="z-10 relative bg-white ">
       <div className="mx-auto max-w-6xl -z-10 ">
-        <div className="py-32 mx-4  ">
+        <div className="md:py-32 py-16 mx-4  ">
           <div className="relative lg:ml-8 ml-4 ">
             <div className="absolute lg:-top-16 lg:-left-12 -top-10 -left-8 bg-[#13A6FA] flex items-center justify-center lg:size-24 size-16 rounded-full -z-20">
               <FaQuoteLeft fill="white" className="md:size-8 size-6" />
@@ -12,7 +12,7 @@ function Testimonial() {
               What Our Customer <br /> are Saying
             </h1>
           </div>
-          <div className="lg:mx-8 sm:mx-4 grid md:grid-cols-2 grid-cols-1 md:mt-16 mt-8 gap-10 items-center">
+          <div className="lg:mx-8 sm:mx-4 grid md:grid-cols-2 grid-cols-1 md:mt-16 mt-8 gap-12 items-center">
             <div className=" md:border-r-2  max-md:border-b-2 lg:pr-16 md:pr-10 ">
               <p className="lg:text-2xl md:text-xl text-lg text-[#090F4E] leading-relaxed">
                 Great Service with Good Quality Photographers PhotoScape
