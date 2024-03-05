@@ -3,7 +3,7 @@ import "../../index.css";
 
 function SignUp() {
   return (
-    <div className="mx-auto max-w-6xl bg-[#E7F5FF] sm:p-20 py-8 sm:rounded-[30px] ">
+    <div id="Login" className="mx-auto max-w-6xl bg-[#E7F5FF] sm:p-20 py-8 sm:rounded-[30px] ">
       <div className="mx-4">
         <div className="flex flex-col justify-center items-center max-w-[480px] mx-auto">
           <h2 className="text-[#090F4E] text-4xl leading-snug font-semibold text-center">

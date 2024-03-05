@@ -1,6 +1,6 @@
 function Discover() {
   return (
-    <div className="ld:mt-52 mt-24 mx-auto max-w-6xl">
+    <div id="Discover" className="ld:mt-52 mt-24 mx-auto max-w-6xl">
       <div className="mx-4 flex flex-col items-center ">
         <p
           className="text-[#293FCC] text-sm font-semibold border

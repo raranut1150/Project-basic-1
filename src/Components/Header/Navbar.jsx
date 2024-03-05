@@ -10,9 +10,11 @@ function Navbar() {
 
   return (
     <div className="mx-auto max-w-6xl ">
-      <div className="  
-      flex justify-between items-center relative py-3 mx-4">
-        <div >
+      <div
+        className="  
+      flex justify-between items-center relative py-3 mx-4"
+      >
+        <div>
           <img
             src="/image/Logo.svg"
             alt="Logo"
@@ -24,24 +26,30 @@ function Navbar() {
           <ul className="flex space-x-5 mx-6 lg:space-x-9 lg:mx-8 text-[#090f4e]  text-base lg:text-lg transition-all ease-in-out duration-300">
             <li>
               <a
-                href="#"
+                href="#PerfectSolutions"
                 className="hover:opacity-55 ease-in-out duration-100 "
               >
                 Company
               </a>
             </li>
             <li>
-              <a href="#" className="hover:opacity-55 ease-in-out duration-100">
+              <a
+                href="#Discover"
+                className="hover:opacity-55 ease-in-out duration-100"
+              >
                 Feature
               </a>
             </li>
             <li>
-              <a href="#" className="hover:opacity-55 ease-in-out duration-100">
+              <a
+                href="#Pricing"
+                className="hover:opacity-55 ease-in-out duration-100"
+              >
                 Pricing
               </a>
             </li>
             <li>
-              <a href="#" className="hover:opacity-55 ease-in-out duration-100">
+              <a href="#Login" className="hover:opacity-55 ease-in-out duration-100">
                 Log In
               </a>
             </li>
@@ -67,26 +75,16 @@ function Navbar() {
         >
           <ul className="flex-col text-[#090f4e] text-lg space-y-5 mb-8">
             <li className="w-full h-full hover:opacity-35 hover:border-b-2 ease-in-out duration-100 ">
-              <a
-                href="#"
-              >
-                Company
-              </a>
+              <a href="#PerfectSolutions">Company</a>
             </li>
             <li className="w-full h-full hover:opacity-35 hover:border-b ease-in-out duration-100 ">
-              <a href="#" >
-                Feature
-              </a>
+              <a href="#Discover">Feature</a>
             </li>
             <li className="w-full h-full hover:opacity-35 hover:border-b ease-in-out duration-100 ">
-              <a href="#" >
-                Pricing
-              </a>
+              <a href="#Pricing">Pricing</a>
             </li>
             <li className="w-full h-full hover:opacity-35  ease-in-out duration-100 ">
-              <a href="#" >
-                Log In
-              </a>
+              <a href="#Login">Log In</a>
             </li>
           </ul>
           <a

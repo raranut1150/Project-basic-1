@@ -139,7 +139,7 @@ function Footer() {
               </h4>
               <ul>
                 <li className="flex items-baseline gap-x-3 mb-6 pb-5">
-                  <img src="./image/Location.svg" alt="location" />
+                  <img src="/image/Location.svg" alt="location" />
                   <span className="lg:text-lg text-base text-[#63657E] ">
                     London, New area <br /> road 04, England
                   </span>
@@ -150,7 +150,7 @@ function Footer() {
                     className="hover:opacity-35  ease-in-out duration-100 "
                   >
                     <img
-                      src="./image/google.svg"
+                      src="/image/google.svg"
                       alt="google"
                       className="max-lg:size-4"
                     />
@@ -160,7 +160,7 @@ function Footer() {
                     className="hover:opacity-35  ease-in-out duration-100 "
                   >
                     <img
-                      src="./image/twitter.svg"
+                      src="/image/twitter.svg"
                       alt="google"
                       className="max-lg:size-4"
                     />
@@ -170,7 +170,7 @@ function Footer() {
                     className="hover:opacity-35  ease-in-out duration-100 "
                   >
                     <img
-                      src="./image/instagram.svg"
+                      src="/image/instagram.svg"
                       alt="google"
                       className="max-lg:size-4"
                     />
@@ -180,7 +180,7 @@ function Footer() {
                     className="hover:opacity-35  ease-in-out duration-100 "
                   >
                     <img
-                      src="./image/linkedin.svg"
+                      src="/image/linkedin.svg"
                       alt="google"
                       className="max-lg:size-4"
                     />

@@ -1,6 +1,6 @@
 function PerfectSolutions() {
   return (
-    <div className="mx-auto max-w-6xl">
+    <div id="PerfectSolutions" className="mx-auto max-w-6xl">
       <div className="mx-4">
         <h2 className="text-3xl font-semibold text-center  text-[#090F4E]">
           Perfect Solution For Your Business
