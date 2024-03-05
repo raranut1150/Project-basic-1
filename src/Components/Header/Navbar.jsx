@@ -12,7 +12,7 @@ function Navbar() {
     <div className="mx-auto max-w-6xl ">
       <div className="  
       flex justify-between items-center relative py-3 mx-4">
-        <div className="">
+        <div >
           <img
             src="/image/Logo.svg"
             alt="Logo"

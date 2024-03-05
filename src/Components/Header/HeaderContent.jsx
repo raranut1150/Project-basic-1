@@ -35,8 +35,8 @@ function HeaderContent() {
           </div>
         </div>
 
-        <div className=" mx-auto mx-7xl py-16 sm:py-12 order-1 lg:order-2 lg:pr-24 ">
-          <div className="relative max-sm:mx-10 ">
+        <div className=" mx-auto py-16 sm:py-12 order-1 lg:order-2 lg:pr-24 ">
+          <div className="relative  ">
             <img
               src="/image/Rectangle 820.svg"
               alt="bg-3D"

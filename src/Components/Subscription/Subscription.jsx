@@ -288,29 +288,29 @@ function Subscription() {
                     </ul>
                   </CardBody>
 
-                  <CardFooter className="lg:mt-12 mt-8 p-0">
-                    {subData.suggestion ? (
-                      <Button
-                        size="lg"
-                        color="white"
-                        className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#293FCC] text-[#ffff] lg:text-[20px] text-base font-medium"
-                        ripple={false}
-                        fullWidth={true}
-                      >
-                        <p>{subData.promotion}</p>
-                      </Button>
-                    ) : (
-                      <Button
-                        size="lg"
-                        color="white"
-                        className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#E5F1FF] text-[#293FCC] lg:text-[20px] text-base font-medium"
-                        ripple={false}
-                        fullWidth={true}
-                      >
-                        <p>{subData.promotion}</p>
-                      </Button>
-                    )}
-                  </CardFooter>
+                  <CardFooter className="mt-12 p-0">
+                  {subData.suggestion ? (
+                    <Button
+                      size="lg"
+                      color="white"
+                      className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#293FCC] text-[#ffff] text-[20px] font-medium p-5"
+                      ripple={false}
+                      fullWidth={true}
+                    >
+                      <p>{subData.promotion}</p>
+                    </Button>
+                  ) : (
+                    <Button
+                      size="lg"
+                      color="white"
+                      className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#E5F1FF] text-[#293FCC] text-[20px] font-medium  p-5"
+                      ripple={false}
+                      fullWidth={true}
+                    >
+                      <p>{subData.promotion}</p>
+                    </Button>
+                  )}
+                </CardFooter>
                 </Card>
               ) : (
                 <Card
@@ -365,29 +365,29 @@ function Subscription() {
                     </ul>
                   </CardBody>
 
-                  <CardFooter className="lg:mt-12 mt-8 p-0">
-                    {subData.suggestion ? (
-                      <Button
-                        size="lg"
-                        color="white"
-                        className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#293FCC] text-[#ffff] lg:text-[20px] text-base font-medium"
-                        ripple={false}
-                        fullWidth={true}
-                      >
-                        <p>{subData.promotion}</p>
-                      </Button>
-                    ) : (
-                      <Button
-                        size="lg"
-                        color="white"
-                        className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#E5F1FF] text-[#293FCC] lg:text-[20px] text-base font-medium"
-                        ripple={false}
-                        fullWidth={true}
-                      >
-                        <p>{subData.promotion}</p>
-                      </Button>
-                    )}
-                  </CardFooter>
+                  <CardFooter className="mt-12 p-0">
+                  {subData.suggestion ? (
+                    <Button
+                      size="lg"
+                      color="white"
+                      className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#293FCC] text-[#ffff] text-[20px] font-medium p-5"
+                      ripple={false}
+                      fullWidth={true}
+                    >
+                      <p>{subData.promotion}</p>
+                    </Button>
+                  ) : (
+                    <Button
+                      size="lg"
+                      color="white"
+                      className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100 normal-case bg-[#E5F1FF] text-[#293FCC] text-[20px] font-medium  p-5"
+                      ripple={false}
+                      fullWidth={true}
+                    >
+                      <p>{subData.promotion}</p>
+                    </Button>
+                  )}
+                </CardFooter>
                 </Card>
               )
             )}

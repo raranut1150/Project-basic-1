@@ -7,6 +7,7 @@ import Subscription from "./Components/Subscription/Subscription";
 import SignUp from "./Components/SignUp/SignUp";
 import Footer from "./Components/Footer/Footer";
 function App() {
+  
   return (
     <div>
       <Header />
